@@ -1,5 +1,5 @@
 body {
-    background: repeating-linear-gradient(45deg, #353535, #353535, #56585a, #353535 33%);
+    background: repeating-linear-gradient(45deg, #353535, #353535, #56585a, #353535 50%);
     background-size: 100vw 100vh;
     text-shadow: 1px 1px black;
 }
@@ -9,13 +9,13 @@ body {
 }
 
 header {
-    background: repeating-linear-gradient(45deg, #696f70, #6f7375, #8e9396, #6f7375 100px);
+    background: repeating-linear-gradient(45deg, #696f70, #6f7375, #8e9396, #6f7375 200px);
     width: 100%;
     padding: 5px;
 }
 
 .panel {
-    background: repeating-linear-gradient(45deg, #696f70, #6f7375, #8e9396, #6f7375 60px);
+    background: repeating-linear-gradient(45deg, #696f70, #6f7375, #8e9396, #6f7375 150px);
     max-width: 500px;
     margin: 15px;
     border-radius: 10px;
