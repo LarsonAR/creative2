@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="/styles/styles.css">
+    <title>Rover HQ</title>
+</head>
+<body>
+
+<header class="drop-shadow text-white text-center">
+    <h1>Mars Rover HQ</h1>
+</header>
+
+<div class="row no-gutters justify-content-center">
+    <div class="col-md-5 p-3 panel drop-shadow text-center">
+        <form>
+            <label for="pickrover" class="text-white">Select a rover: </label>
+            <select name="rover" id="pickrover">
+                <option value="">-Select-</option>
+                <option value="curiosity">Curiosity</option>
+                <option value="opportunity">Opportunity</option>
+                <option value="spirit">Spirit</option>
+            </select>
+        </form>
+        <form id="solControls" class="text-center">
+            <button id="decSol">-</button>
+            <button id="sol" disabled="true">SOL 0</button>
+            <button id="incSol">+</button>
+        </form>
+    </div>
+    <div class="col-md-5 p-3 panel drop-shadow">
+        <form id="cameras" class="text-center">
+            <label class="d-block text-white">Select a camera:</label>
+            <button id="ENTRY" value="ENTRY">ENTRY</button>
+            <button id="FHAZ" value="FHAZ">FHAZ</button>
+            <button id="RHAZ" value="RHAZ">RHAZ</button>
+            <button id="MAST" value="MAST">MAST</button>
+            <button id="CHEMCAM" value="CHEMCAM">CHEMCAM</button>
+            <button id="MAHLI" value="MAHLI">MAHLI</button>
+            <button id="MARDI" value="MARDI">MARDI</button>
+            <button id="NAVCAM" value="NAVCAM">NAVCAM</button>
+            <button id="PANCAM" value="PANCAM">PANCAM</button>
+            <button id="MINITES" value="MINITES">MINITES</button>
+        </form>
+    </div>
+</div>
+
+<main class="drop-shadow">
+    <img id="photo" src="">
+</main>
+
+<div class="row no-gutters justify-content-center">
+    <footer class="col-2 drop-shadow text-center panel">
+        <a href="https://github.com/LarsonAR/creative2.git">Github</a>
+    </footer>
+</div>
+<script src="/scripts/api.js"></script>
+</body>
+</html>

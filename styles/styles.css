@@ -1,0 +1,78 @@
+body {
+    background-color: darkgrey;
+    background-image: url("/assets/bg.jpg");
+    background-size: 150%;
+    text-shadow: 1px 1px black;
+}
+
+.drop-shadow {
+    box-shadow: 0 0 10px 0 black;
+}
+
+header {
+    background: repeating-linear-gradient(45deg, #696f70, #6f7375, #8e9396, #6f7375 100px);
+    width: 100%;
+    padding: 5px;
+}
+
+.panel {
+    background: repeating-linear-gradient(45deg, #696f70, #6f7375, #8e9396, #6f7375 60px);
+    max-width: 500px;
+    margin: 15px;
+    border-radius: 10px;
+    border-image-source: url("/assets/screw.png");
+    border-image-width: 20px;
+}
+
+#solControls {
+    display: none;
+}
+
+#solControls button {
+    margin: 3px 1px;
+    color: black;
+    border-radius: 6px;
+    background-color: #c6cccd;
+    box-shadow: 2px 2px 1px -1px black;
+}
+
+
+#cameras {
+    display: none;
+}
+
+#cameras button {
+    padding: 3px 10px;
+    margin: 5px 3px;
+    border-radius: 6px;
+    background-color: #c6cccd;
+    box-shadow: 2px 2px 1px -1px black;
+}
+main {
+    background: repeating-linear-gradient(45deg, #696f70, #6f7375, #8e9396, #6f7375 60px);
+    width: 700px;
+    max-width: 95%;
+    margin: 20px auto;
+    border-radius: 10px;
+    border-image-source: url("/assets/screw.png");
+    border-image-width: 20px;
+}
+
+#photo {
+    max-height: 1000px;
+    width: 100%;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+footer {
+    opacity: 0.6;
+}
+
+footer a {
+    color: white;
+}
+
+footer a:hover {
+    color: white;
+}
