@@ -1,7 +1,6 @@
 body {
-    background-color: darkgrey;
-    background-image: url("/assets/bg.jpg");
-    background-size: 150%;
+    background: repeating-linear-gradient(45deg, #353535, #353535, #56585a, #353535 33%);
+    background-size: 100vw 100vh;
     text-shadow: 1px 1px black;
 }
 
